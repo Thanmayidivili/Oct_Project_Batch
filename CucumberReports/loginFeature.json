@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "adactin-hotel-booking;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 211698000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is enter the URL",
+            "match": {
+              "location": "LoginData.user_is_enter_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is enter the Username in Username Field",
+            "match": {
+              "location": "LoginData.user_is_enter_the_Username_in_Username_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is enter the Password in Password Field",
+            "match": {
+              "location": "LoginData.user_is_enter_the_Password_in_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is click on login button",
+            "match": {
+              "location": "LoginData.user_is_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression_run"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Hotel Booking",
+    "description": "",
+    "id": "adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

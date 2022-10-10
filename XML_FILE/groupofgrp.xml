@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name="Entertainment">
+  <include name="Social"></include>
+  <include name="Sports"></include>
+  </define>
+  <define name="Study">
+  <include name="Books"></include>
+  <include name="Course"></include>
+  </define>
+  
+  <run>
+  <include name="Study"></include>
+  
+  </run>
+  
+  </groups>
+  
+  
+    <classes>
+      <class name="com.testng_pgm.GroupingPgm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
